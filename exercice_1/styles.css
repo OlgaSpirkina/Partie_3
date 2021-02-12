@@ -1,0 +1,228 @@
+*{
+  padding: 0;
+  margin: 0;
+  background: #fff9da;
+  background-image: url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/images/fond_jaune.png');
+}
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/polices/ballpark.eot');
+    src: url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/polices/ballpark.woff') format('woff'),
+        url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/polices/ballpark.ttf') format('truetype'),
+        url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/polices/ballpark.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/polices/dayrom.eot');
+    src: url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/polices/dayrom.woff') format('woff'),
+        url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/polices/dayrom.ttf') format('truetype'),
+        url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/polices/dayrom.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+footer, article, aside,#line{
+  font-family: sans-serif, monospace;
+}
+/*Styling the header: logo & navbar*/
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50vw;
+  margin: 10px auto;
+  height: 10vh;
+}
+#zozor{
+  font-family: 'BallparkWeiner', monospace;
+  font-size: 3rem;
+}
+#logo{
+  position: relative;
+  display: inline-block;
+  bottom: 30px;
+  margin-top: 20px;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Dayrom', monospace;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  position: relative;
+  left: 50%;
+  top: 45%;
+  padding: 10px;
+}
+.zozorLogo{
+  width: 40%;
+  background: transparent;
+  bottom: 10px;
+}
+.zozorLogo > h1, .zozorLogo > p{
+  display: inline-block;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  bottom: 30px;
+  position: relative;
+  font-size: small;
+}
+h2, h3 {
+  font-family: 'Dayrom', monospace;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+/*Styling the main picture*/
+#mainPic{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  height: 20vh;
+}
+#line{
+  position: absolute;
+  background: rgba(0, 0, 0, .6);
+  z-index: 1;
+  width: 50vw;
+  height: 5vh;
+  margin: 9% 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.textInLine{
+  color: #fff;
+  font-size: small;
+  margin: 1.5%;
+  background: transparent;
+}
+#bridge{
+  border-radius: 15px;
+}
+.btnRed{
+  float: right;
+  color: #fff;
+  background: linear-gradient(to bottom, #a35354 0%, #811315 100%);
+  width: 6.5%;
+  height: 3.5vh;
+  border: solid 1px #811315;
+  border-radius: 5px;
+  position: absolute;
+  top: 31%;
+  left: 68%;
+  font-family: sans-serif, monospace;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+#fontawesome{
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+/*Section: aside & article*/
+section{
+  display: flex;
+  width: 50vw;
+  margin: 10px auto;
+  height: 60vh;
+}
+.right{
+  background: #706b64;
+  border-radius: 5px;
+}
+.inAside{
+  display: inline-block;
+  text-align: justify;
+  background: inherit;
+  color: #fff;
+  margin: 10px;
+  padding: 5px;
+}
+article{
+}
+#cow{
+  width: 50%;
+  margin: 10% 20%;
+  border: solid 1px black;
+}
+.smedia{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+}
+#bulle{
+  float: left;
+  background: transparent;
+  right: 11px;
+  top: 50px;
+  position: relative;
+}
+aside > h3 {
+  background: inherit;
+  color: #fff;
+  padding: 10px 10px;
+}
+.pin {
+  float: left;
+}
+.text{
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+}
+h2{
+  padding: 20px;
+}
+/*Styling the footer*/
+#flex-container{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+ul{
+  display: inline-block;
+  padding: 10px;
+}
+.myPics{
+  display: inline-block;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: solid 1px black;
+}
+#inFooter > p {
+  font-family: 'Dayrom', monospace;
+}
+.upper {
+  text-transform: uppercase;
+  font-size: medium;
+  text-align: left;
+}
+.friends{
+  font-size: small;
+  color: #75151e;
+  list-style-image: url('/home/olga/Desktop/Exercices/HTML/Partie_3/exercice_1/Pics/images/ico_liensexterne.png');
+}
+#icoTop{
+  position: absolute;
+  bottom: -5%;
+  margin: 0 50%;
+  padding: 0;
+}

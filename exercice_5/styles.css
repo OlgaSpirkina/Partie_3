@@ -1,0 +1,24 @@
+div {
+  float: left;
+  height: 50px;
+}
+.one{
+  width: 60%;
+  background-color: green;
+  height: 50px;
+}
+.two{
+  width: 30%;
+  background-color: blue;
+  height: 50px;
+}
+.three{
+  width: 25%;
+  background-color: red;
+  height: 45px;
+}
+.four{
+  width: 25%;
+  background-color: orange;
+  height: 45px;
+}
